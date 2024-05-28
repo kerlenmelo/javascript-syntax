@@ -1,0 +1,10 @@
+// HOISTING: içamento da variável var
+console.log("Hoisting: Içamento da variável com VAR");
+
+console.log("a =", a);
+var a = 2;
+console.log("a =", a);
+
+// console.log("b =", b);
+// let b = 2;
+// console.log("a =", b);
